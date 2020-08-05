@@ -1,0 +1,70 @@
+.container{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap:4vh;
+}
+h1{
+    padding-top:4vh;
+}
+.container p{
+    width: 60vh;
+}
+.container img{
+    cursor: url(img/1cursor.png),pointer;
+    width:50vh;
+}
+.goBack{
+    padding-top:10px;
+}
+button{
+    font-family: 'Roboto Slab', serif;
+    color:white;
+    background:black;
+    width:100px;
+    cursor: url(img/cursor.png),pointer;
+}
+footer{
+    height:20vh;
+}
+footer button{
+    width:30vh;
+    height:5vh;
+    font-family: 'Roboto Slab', serif;
+    font-size:2vh;
+}
+.size img{
+    width:100vh;
+    height:auto;
+}
+@media only screen and (max-width: 768px){
+
+    h1{
+        font-size:60px;
+    }
+    .container p{
+        width: 100%;
+    }
+    .container img{
+        width:100%;
+    }
+    iframe{
+        width:50vh;
+        height:25vh;
+    }
+}
+
+@media only screen and (max-width: 568px){
+    h1{
+        font-size:40px;
+    }
+    .container p{
+        width: 100%;
+    }
+    .container img{
+        width:100%;
+    }
+    iframe{
+        width:50vh;
+        height:25vh;
+    }
+}
