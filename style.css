@@ -88,14 +88,17 @@ footer p{
         text-align: left;
     }
     h1{
-        font-size:70px;
+        font-size:11vh;
+    }
+    p{
+        font-size:15px;
     }
     .info p{
         width:90%;
         height:auto;
     }
     .info img{
-        width:100%;
+        width:50%;
         padding:5vh 0 5vh 0;
         height:auto;
         border-radius:50%;
@@ -121,7 +124,7 @@ footer p{
         text-align: left;
     }
     h1{
-        font-size:40px;
+        font-size:10vh;
     }
     .Headline p{
         font-size:100%;
@@ -131,7 +134,7 @@ footer p{
         height:auto;
     }
     .info img{
-        width:100%;
+        width:50%;
         padding:5vh 0 5vh 0;
         height:auto;
         border-radius:50%;
